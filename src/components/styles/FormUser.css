@@ -1,7 +1,7 @@
 .formuser-container {
     width: 100%;
     min-height: 100vh;
-    background-color: #003;
+    background-color: #889C9B;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,7 +67,7 @@
     font-weight: 400;
     padding-top: 0.9em;
     padding-bottom: 0.9em;
-    background-color: rgba(22, 110, 218);
+    background-color: #486966;
     color: white;
     border-radius: 0.5em;
     position: absolute;

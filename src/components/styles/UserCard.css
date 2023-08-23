@@ -1,16 +1,5 @@
 .userCard_article {
-    
-    /* border-radius: .8em; */
-    /* color: #fff; */
-    /* max-width: 400px; */
-    /* width: 100%; */
-    /* transition: transform .2s ease;
-    margin-top: 5em;
-    border: solid; */
-    /* height: 400px ; */
 
-
-    
     position: relative;
     width: 350px;
     height: 180px;
@@ -19,17 +8,29 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15) ;
     transition: 0.5s;
-     
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
 }
-/* .userCard_article:hover {
-    height: 250px;
-} */
+
+.userCard-container1 {
+    display: flex;
+    gap: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+
+    align-content: center;
+    padding-top: 4%;
+
+}
+
 
 .box_h2 {
     position: absolute;
     left: 50%;
     top: -20%;
-    transform: translateX(-50%);
+    transform: translatex(-50%);
     width: 220px;
     height: 80px;
     background: #fff;
@@ -37,29 +38,31 @@
     box-shadow: 0 15px 50px rgba(0 , 0, 0, 0.35);
     overflow: hidden;
     transition: 0.5s;
+
 }
 
 .userCard_article:hover .box_h2 {
     width: 250px;
-    height:100px;
-    transform: translateY(30px);
+    height:90px;
+    transform: translateY(-45px);  
 }
 
 
+
 .userCard_h2 {
-    color: darkgreen;
+    color: black;
     text-align: center;
     margin-top: 1em;
-    font-family:sans-serif;
+    
 
 }
 
 .userCard_line {
-    margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-bottom: 9px;
+    height: 3px;
+    background-color: #486966;
+    margin-top: 2em;
+
 }
 .userCard_item {
     display: flex;
@@ -73,7 +76,7 @@
     gap: 0.8em;
 } */
 
-.userCard-list .userCard_article {
+.userCard-list  {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -81,85 +84,59 @@
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
-    
 
-}
 
-.userCard-list .userCard_article .userCard_item {
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    transition: 0.5s;
-    
-
-}
-
-.userCard-list .userCard_article .userCard_item .userCard_label {
-    display: flex;
-    justify-content: space-between;
-    
-    
-    
 
 }
 
 
 
-/* .userCard_item {
-    padding-left: 1em
-} */
+.userCard_item {
+
+    margin-left: 30px;
+}
+
 
 
 .userCard_label {
+
     color: #aaa;
     font-weight: 300;
-    padding-right: 30px;
-    
+    padding-right: 50px;
+
 }
 
-/* .userCard_item-value {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1em;
-    color: black;
-    margin-top: 0.3em;
-    margin-bottom: 0.5em;
-
-} */
 
 
 
 .userCard_footer {
     display: flex;
     justify-content:center;
-    gap: 120px;
+    gap: 90px;
     height: 30px;
-    
+
 }
 
 
 
-.userCard-container1 {
-    display: flex;
-    gap: 5em;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1%;
-    
-}
+
 
 .userCard_btn {
     color: black;
-    border-color: black; 
-    height: 30px;
-    width: 10%;
-    background-color: #fff;
+    border-color: #486966;
+    border-style: solid;
+    height: 40px;
+    width: 40px;
+
     border-radius: 5px;
-   
-} 
+
+}
 
 .userCard_btn_delete {
     color: #fff;
-    background-color: red;
+    background-color: #BD2A2E;
     border-radius: 5px;
+    height: 40px;
+    width: 40px;
+
 }
