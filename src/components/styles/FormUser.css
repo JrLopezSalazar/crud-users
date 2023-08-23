@@ -1,0 +1,84 @@
+.formuser-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #003;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 200ms ease;
+    z-index: 1;
+}
+
+.close-form {
+    transform: scale(0);
+}
+
+.formuser {
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5em 1.5em 2.5em;
+    border-radius: 0.7em;
+    background-color: white ;
+    position: relative;
+}
+
+.formuser_close {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 1em;
+    right: 1.5em;
+    cursor: pointer;
+}
+.formuser_close:hover {
+    color: red;
+}
+
+.formuser_title {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.formuser_group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.formuser_label {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-left: 1em;
+}   
+
+.formuser_input {
+    padding: 0,4em 0.8em;
+    border-radius: 0.5em;
+    border: 0.1 solid #aaa;
+}
+.formuser_btn {
+    width: 45%;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    background-color: rgba(22, 110, 218);
+    color: white;
+    border-radius: 0.5em;
+    position: absolute;
+    right: 5em;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.formuser_btn:hover {
+    filter: brightness(1.2);
+}

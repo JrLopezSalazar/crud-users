@@ -1,0 +1,165 @@
+.userCard_article {
+    
+    /* border-radius: .8em; */
+    /* color: #fff; */
+    /* max-width: 400px; */
+    /* width: 100%; */
+    /* transition: transform .2s ease;
+    margin-top: 5em;
+    border: solid; */
+    /* height: 400px ; */
+
+
+    
+    position: relative;
+    width: 350px;
+    height: 180px;
+    /* height: 190px; */
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15) ;
+    transition: 0.5s;
+     
+}
+/* .userCard_article:hover {
+    height: 250px;
+} */
+
+.box_h2 {
+    position: absolute;
+    left: 50%;
+    top: -20%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 80px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0 , 0, 0, 0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.userCard_article:hover .box_h2 {
+    width: 250px;
+    height:100px;
+    transform: translateY(30px);
+}
+
+
+.userCard_h2 {
+    color: darkgreen;
+    text-align: center;
+    margin-top: 1em;
+    font-family:sans-serif;
+
+}
+
+.userCard_line {
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.userCard_item {
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+/* .userCard-list {
+    display: grid;
+    gap: 0.8em;
+} */
+
+.userCard-list .userCard_article {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    
+
+}
+
+.userCard-list .userCard_article .userCard_item {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    
+
+}
+
+.userCard-list .userCard_article .userCard_item .userCard_label {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+
+
+/* .userCard_item {
+    padding-left: 1em
+} */
+
+
+.userCard_label {
+    color: #aaa;
+    font-weight: 300;
+    padding-right: 30px;
+    
+}
+
+/* .userCard_item-value {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    color: black;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+
+} */
+
+
+
+.userCard_footer {
+    display: flex;
+    justify-content:center;
+    gap: 120px;
+    height: 30px;
+    
+}
+
+
+
+.userCard-container1 {
+    display: flex;
+    gap: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1%;
+    
+}
+
+.userCard_btn {
+    color: black;
+    border-color: black; 
+    height: 30px;
+    width: 10%;
+    background-color: #fff;
+    border-radius: 5px;
+   
+} 
+
+.userCard_btn_delete {
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+}
